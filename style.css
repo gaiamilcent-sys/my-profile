@@ -1,0 +1,115 @@
+
+h2 {
+    color: mediumpurple;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+body {
+    color: rgb(100, 100, 100); 
+    background-color: rgb(210, 255, 260);
+    font-family: Georgia, serif; 
+}
+
+a:hover {
+
+    color: green;
+}
+
+@media (max-width: 2000px) {
+  .card-white {
+    width: 950px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card-white {
+    width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 670px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 420px;
+  }
+}
+
+
+/* --- STYLE POUR LES CADRES --- */
+.card-white {
+    background: white;                     
+    padding: 20px;                         
+    margin: 20px auto;                     
+    width: 500px;                         
+    border-radius: 8px;                    
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    border: 1px solid rgba(0,0,0,0.05);   
+    text-align: center; 
+}
+
+.contaigner {
+  width:700px;
+  margin:40px;
+}
+
+.img-circle {
+  border-radius: 20%;
+}
+
+.btn-blue{
+  background-color: #6B92E1;
+   color: white;
+   padding: 10px 10px;
+}
+
+.btn-blue:hover { 
+  background-color: lightgreen; 
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline  li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 35px;
+  color: rgba(100, 205, 200,0.3);
+}
+
+.list-inline  a {
+text-decoration: none;
+}
+
+.list-inline i:hover{
+  color: rgb(100, 205, 200);
+}
+
+#introduction p {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
